@@ -1,0 +1,384 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -2;
+  filter: brightness(50%);
+}
+
+
+#title {
+  color: white;
+  width: 100%;
+  height: 60rem;
+}
+
+.title-page-header {
+  font-size: 5.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 800;
+}
+.navbar-brand {
+  margin-left: .5rem;
+}
+
+.container-fluid{
+  padding: 3% 25% 7%;
+}
+
+
+.arrowdown {
+  width: 35px;
+  height: 27px;
+  display: block;
+  background: url(../images/elements.png) -549px 0 no-repeat;
+  position: absolute;
+  padding-bottom: 4rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -16px;
+  /* -webkit-animation: arrow 1s infinite; */
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+  border-style: none;
+  outline: 0;
+}
+
+@-webkit-keyframes bounce {
+ 0%       { bottom:0px; }
+ 50%      { bottom:15px; }
+ 100%     {bottom:30;}
+}
+
+@-moz-keyframes bounce {
+ 0%       { bottom:0px; }
+ 50%      { bottom:15px; }
+ 100%     {bottom:30;}
+}
+
+@-o-keyframes bounce {
+ 0%       { bottom:0px; }
+ 50%      { bottom:15px; }
+ 100%     {bottom:30;}
+}
+
+@keyframes bounce {
+ 0%       { bottom:0px; }
+ 50%      { bottom:15px; }
+ 100%     {bottom:30;}
+}
+
+
+/* Navigation-Bar */
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Download Buttons */
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(10deg);
+  z-index: 0;
+  position: absolute;
+  right: 28.5%;
+}
+
+
+@media (max-width: 1700px) {
+  #myVideo {
+    width: 150%;
+  }
+
+  #title {
+    padding-bottom: 38%;
+  }
+}
+
+@media (max-width: 1580px) {
+  #myVideo {
+    width: 150%;
+  }
+
+  #title {
+    padding-bottom: 38%;
+  }
+}
+
+
+@media (max-width: 1487px) {
+  .title-image {
+
+  }
+
+  #title {
+    padding-bottom: 44%;
+  }
+}
+
+@media (max-width: 1370px) {
+  .title-image {
+
+  }
+  #myVideo {
+    width: 150%;
+    position: fixed;
+  }
+
+  #title {
+    padding-bottom: 49%;
+  }
+}
+
+
+@media (max-width: 1150px) {
+  .title-image {
+
+  }
+
+  #myVideo {
+    width: 180%;
+    position: fixed;
+  }
+
+  .title-page-header {
+    font-size: 4rem;
+  }
+
+  .arrowdown {
+    padding-bottom: 0;
+  }
+
+  #title {
+    padding-bottom: 55%;
+    height: 0;
+  }
+}
+
+@media (max-width: 994px) {
+  .title-image {
+
+  }
+  #myVideo {
+    width: 200%;
+    position: fixed;
+  }
+
+  #title {
+    padding-bottom: 61%;
+  }
+}
+
+@media (max-width: 910px) {
+  .title-image {
+
+  }
+
+  #title {
+    padding-bottom: 75%;
+  }
+}
+
+@media (max-width: 855px) {
+  .title-image {
+
+  }
+  #myVideo {
+    width: 220%;
+    position: fixed;
+  }
+
+
+  #title {
+    padding-bottom: 85%;
+  }
+}
+
+@media (max-width:765px) {
+  .title-page-header {
+    font-size: 4.3rem;font-size: 4.3rem;m;
+
+  }
+
+  #myVideo {
+    width: 260%;
+    position: fixed;
+  }
+
+  .navbar-brand {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+  }
+
+
+  #title {
+    padding-bottom: 95%;
+  }
+
+}
+
+@media (max-width:659px) {
+  .title-page-header {
+  font-size: 3rem;
+  }
+
+  #myVideo {
+    width: 290%;
+  }
+
+  #title {
+    padding-bottom: 110%;
+  }
+
+}
+
+@media (max-width: 587px) {
+
+  .title-page-header {
+    font-size: 3rem;
+  }
+
+  #myVideo {
+    width: 340%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
+
+@media (max-width: 495px) {
+
+  .title-page-header {
+    font-size: 2.8rem;
+  }
+
+  #myVideo {
+    width: 370%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
+
+@media (max-width: 460px) {
+
+  .title-page-header {
+    font-size: 2.6rem;
+  }
+
+  #myVideo {
+    width: 420%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
+
+
+@media (max-width: 430px) {
+
+  .title-page-header {
+    font-size: 2rem;
+  }
+
+  #myVideo {
+    width: 470%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
+
+
+@media (max-width: 360px) {
+
+  .title-page-header {
+    font-size: 1.7rem;
+  }
+
+  #myVideo {
+    width: 550%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
+
+@media (max-width: 310px) {
+
+  .title-page-header {
+    font-size: 1.5rem;
+  }
+
+  #myVideo {
+    width: 650%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
+
+@media (max-width: 260px) {
+
+  .title-page-header {
+    font-size: 1.2rem;
+  }
+
+  #myVideo {
+    width: 950%;
+  }
+
+  #title {
+    padding-bottom: 140%;
+  }
+
+}
