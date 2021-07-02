@@ -1,2 +1,1 @@
-# Explorer-Landing-Page
-Travel site landing page
+TinDog Starting Files
